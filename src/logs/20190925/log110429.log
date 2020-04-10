@@ -1,0 +1,4 @@
+2019-09-25 11:04:30 - root -testLoginApi- INFO - ------testLoginApi------.
+2019-09-25 11:04:31 - root -testLoginApi- INFO - 请求url：http://10.10.42.240:9980/login/submitLogin?username=humeifen&password=123456aa
+2019-09-25 11:04:31 - root -testLoginApi- INFO - 请求返回值的json串值:{'state': -1, 'message': '账户名与密码不匹配，请重新输入', 'data': None}
+2019-09-25 11:04:31 - root -testLoginApi- ERROR - 检查结果：testLoginApi False,-[实际state:-1,实际message：账户名与密码不匹配，请重新输入] ,[预期state:1,预期message:None].

@@ -1,0 +1,19 @@
+2019-06-04 14:25:08 - root -testLoginApi- INFO - ------testLoginApi------.
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 请求url：http://10.10.42.240:9980/login/submitLogin?username=humeifen&password=123456aa
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 请求返回值的json串值:{'state': 1, 'message': None, 'data': None}
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 检查结果：testLoginApi True,-实际state:1，预期state:1.
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 请求url：http://10.10.42.240:9980/login/submitLogin?username=humeifen&password=12345
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 请求返回值的json串值:{'state': -1, 'message': '账户名与密码不匹配，请重新输入', 'data': None}
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 检查结果：testLoginApi True,-实际state:-1，预期state:-1.
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 请求url：http://10.10.42.240:9980/login/submitLogin?username=hutest&password=123456aa
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 请求返回值的json串值:{'state': -1, 'message': '账户名与密码不匹配，请重新输入', 'data': None}
+2019-06-04 14:25:08 - root -testLoginApi- INFO - 检查结果：testLoginApi True,-实际state:-1，预期state:-1.
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 请求url：http://10.10.42.240:9980/login/submitLogin?username=&password=123456
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 请求返回值的json串值:{'state': -1, 'message': '账户名与密码不匹配，请重新输入', 'data': None}
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 检查结果：testLoginApi True,-实际state:-1，预期state:-1.
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 请求url：http://10.10.42.240:9980/login/submitLogin?username=humeifen&password=
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 请求返回值的json串值:{'state': -1, 'message': '账户名与密码不匹配，请重新输入', 'data': None}
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 检查结果：testLoginApi True,-实际state:-1，预期state:-1.
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 请求url：http://10.10.42.240:9980/login/submitLogin?username=&password=
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 请求返回值的json串值:{'state': -1, 'message': '账户名与密码不匹配，请重新输入', 'data': None}
+2019-06-04 14:25:09 - root -testLoginApi- INFO - 检查结果：testLoginApi True,-实际state:-1，预期state:-1.
